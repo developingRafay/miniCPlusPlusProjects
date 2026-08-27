@@ -26,5 +26,6 @@ int main(){
         result = firstNum / secondNum;
     }
     
+    std::cout << "Your output is " << result << std::endl;
     return 0;
 }
