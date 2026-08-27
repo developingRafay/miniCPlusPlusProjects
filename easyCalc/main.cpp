@@ -3,11 +3,12 @@
 
 int main(){
     std::string ans{};
-    std::cout << "Welcome to easy Calculator!\nThis calculator can only perform the following with two numbers:\n";
-    std::cout << "--Addition\n--Subtraction\n--Multiplication\n--Division\n";
-    std::cout << "State which operation to perform: ";
-    std::cin >> ans;
-
+    while(ans != "Addition" && ans != "Subtraction" && ans != "Multiplication" && ans != "Division"){
+        std::cout << "Welcome to easy Calculator!\nThis calculator can only perform the following with two numbers:\n";
+        std::cout << "--Addition\n--Subtraction\n--Multiplication\n--Division\n";
+        std::cout << "State which operation to perform: ";
+        std::cin >> ans;
+    }
     double firstNum{};
     double secondNum{};
     double result{};
