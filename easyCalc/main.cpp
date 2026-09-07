@@ -28,6 +28,6 @@ int main(){
         else if(secondNum == 0){std::cout << "Cannot perform operation when denominator is 0!\n";return -1;}
     }
     
-    std::cout << "Your output is " << result << std::endl;
+    std::cout << "Your output: " << result << std::endl;
     return 0;
 }
