@@ -25,6 +25,7 @@ int main(){
     std::cin >> rating;
     std::cout << "What is your first initial: ";
     std::cin >> fInitial;
+    std::cout << "\n";
 
     // Allows user to check if data they input is correct
     std::cout << "\t--- Your Profile ---\n";
