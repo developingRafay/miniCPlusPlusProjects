@@ -1,6 +1,31 @@
 #include <iostream>
 
+/*
+The program is supposed to ask the user questions about their age, height, rating and first name initial. The program
+will then output the data onto the console for the user to verify if the correct information has been displayed.
+
+Program is testing coder's ability to initialize and assign variables, and input/outputs
+*/
+
 int main(){
-    std::cout << "Test\n";
+
+    int age{};
+    double height{};
+    float rating{}; //Rating themselves out of 10
+    char fInitial{}; //First name initial
+
+    std::cout << "Personal Profile\n";
+    std::cout << "\n";
+    std::cout << "What is your age: ";
+    std::cin >> age;
+    std::cout << "What is your height in inches: ";
+    std::cin >> height;
+    std::cout << "From 1-10 what do you rate yourself: ";
+    std::cin >> rating;
+    std::cout << "What is your first initial: ";
+    std::cin >> fInitial;
+
+    
+
     return 0;
 }
