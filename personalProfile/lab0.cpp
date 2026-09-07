@@ -14,8 +14,9 @@ int main(){
     float rating{}; //Rating themselves out of 10
     char fInitial{}; //First name initial
 
-    std::cout << "Personal Profile\n";
+    std::cout << "Personal Profile\n"; //Title
     std::cout << "\n";
+    //List of questions for user to interact with in regards to data of themselves
     std::cout << "What is your age: ";
     std::cin >> age;
     std::cout << "What is your height in inches: ";
@@ -25,7 +26,12 @@ int main(){
     std::cout << "What is your first initial: ";
     std::cin >> fInitial;
 
-    
+    // Allows user to check if data they input is correct
+    std::cout << "\t--- Your Profile ---\n";
+    std::cout << "The age of user is " << age << "\n";
+    std::cout << "The height of user is " << height << "\n";
+    std::cout << "You rated yourself a " << rating << " out of 10\n";
+    std::cout << "Your first initial is \"" << fInitial << "\"\n";
 
     return 0;
 }
