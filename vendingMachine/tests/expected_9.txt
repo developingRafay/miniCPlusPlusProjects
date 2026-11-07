@@ -1,0 +1,2 @@
+Insert coins in cents (5, 10, 25, 100). Enter 0 when done:
+Coin return: 125 cents

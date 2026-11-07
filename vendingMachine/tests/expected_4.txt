@@ -1,0 +1,7 @@
+Insert coins in cents (5, 10, 25, 100). Enter 0 when done:
+Total inserted: 50 cents
+1) Chips - 125 cents
+2) Candy - 90 cents
+3) Soda - 150 cents
+Choose an item:
+Not enough money. Refunding 50 cents.

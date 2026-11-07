@@ -1,0 +1,11 @@
+Insert coins in cents (5, 10, 25, 100). Enter 0 when done:
+Total inserted: 125 cents
+1) Chips - 125 cents
+2) Candy - 90 cents
+3) Soda - 150 cents
+Choose an item from 1-3:
+Dispensing Candy.
+Change: 35
+Quarters: 1
+Dimes: 1
+Nickels: 0
